@@ -1,6 +1,6 @@
 <script>
     import { enhance } from "$app/forms";
-    import Warning from "$lib/components/warning.svelte";
+    import Warning from "$lib/components/Warning.svelte";
         export let form;
     </script>
     

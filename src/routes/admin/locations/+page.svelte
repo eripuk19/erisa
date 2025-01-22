@@ -1,7 +1,7 @@
 <script>
 
     import {enhance} from '$app/forms';
-    import Warning from '$lib/components/warning.svelte';
+    import Warning from '$lib/components/Warning.svelte';
     import {slide} from 'svelte/transition';
     let { data, form } = $props();
 </script>
