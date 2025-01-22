@@ -1,0 +1,52 @@
+h1 {
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	font-family: 'Playfair Display', serif;
+}
+h2 {
+	color: darkblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+label,
+input {
+	margin: 10px;
+	color: rgb(255, 166, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Playfair Display', serif;
+}
+
+p {
+	text-align: center;
+	background-color: rgb(255, 175, 231);
+	padding: 30px;
+	border-radius: 20px;
+	border: solid rgb(63, 156, 249) 2px;
+	font-family: 'Playfair Display', serif;
+}
+
+.warning {
+	color: rgb(255, 148, 243);
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
